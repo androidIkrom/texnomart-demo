@@ -10,12 +10,16 @@ _Category _$CategoryFromJson(Map<String, dynamic> json) => _Category(
   slug: json['slug'] as String,
   title: json['title'] as String,
   imageUrl: json['image'] as String?,
+  children: (json['children'] as List<dynamic>?)
+      ?.map((e) => Category.fromJson(e as Map<String, dynamic>))
+      .toList(),
 );
 
 Map<String, dynamic> _$CategoryToJson(_Category instance) => <String, dynamic>{
   'slug': instance.slug,
   'title': instance.title,
   'image': instance.imageUrl,
+  'children': instance.children,
 };
 
 _CategoryResponse _$CategoryResponseFromJson(Map<String, dynamic> json) =>

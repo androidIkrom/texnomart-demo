@@ -1,0 +1,942 @@
+{
+  "user/profile": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/profile"
+  },
+  "common/v1/user/login-password": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/login-password"
+  },
+  "common/v1/intend/member-auth": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/intend/member-auth"
+  },
+  "auth/reset-password": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/reset-password"
+  },
+  "main": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/main"
+  },
+  "web/v1/content/sliders": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/web/v1/content/sliders"
+  },
+  "web/v1/wishlist/products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/wishlist/products"
+  },
+  "web/v1/product/seo": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/seo"
+  },
+  "categories": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/categories"
+  },
+  "web/v1/product/leader-sale": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/leader-sale"
+  },
+  "user": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user"
+  },
+  "bootstrap": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/bootstrap"
+  },
+  "payment/methods": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/payment/methods"
+  },
+  "web/v1/product/pre-order-detail": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/pre-order-detail"
+  },
+  "category": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/category"
+  },
+  "common/v1/order/create/full-payment": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/order/create/full-payment"
+  },
+  "settings": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/settings"
+  },
+  "web/v1/brand/page": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/brand/page"
+  },
+  "promotion": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/promotion"
+  },
+  "web/v1/product/review-like": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/review-like"
+  },
+  "discounts": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/discounts"
+  },
+  "notifications": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/notifications"
+  },
+  "common/v1/user/bonus-card": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/bonus-card"
+  },
+  "web/v1/content/news": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/web/v1/content/news"
+  },
+  "notification": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/notification"
+  },
+  "web/v1/sale-month/sale-months": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/sale-month/sale-months"
+  },
+  "web/v1/home/products-of-day": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/home/products-of-day"
+  },
+  "banner": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/banner"
+  },
+  "auth/login": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/login"
+  },
+  "auth/register": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/register"
+  },
+  "common/v1/user/get-user": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/get-user"
+  },
+  "sales": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/sales"
+  },
+  "web/v1/brand/products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/brand/products"
+  },
+  "new": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/new"
+  },
+  "wishlist": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/wishlist"
+  },
+  "common/v1/user/login-phone": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/login-phone"
+  },
+  "common/v1/checkout/check-products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/check-products"
+  },
+  "common/v1/partners/info": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/common/v1/partners/info"
+  },
+  "application/json": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/application/json"
+  },
+  "products/list": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/products/list"
+  },
+  "web/v1/region/regions-list": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/region/regions-list"
+  },
+  "common/v1/search/parent-categories": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/search/parent-categories"
+  },
+  "web/v1/product/description": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/description"
+  },
+  "web/v1/product/available-stores-by-region": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/available-stores-by-region"
+  },
+  "common/v1/user/login-phone-verify": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/login-phone-verify"
+  },
+  "store": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/store"
+  },
+  "products/search": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/products/search"
+  },
+  "order/status": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/order/status"
+  },
+  "web/v1/category/popular-categories": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/category/popular-categories"
+  },
+  "user/me": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/me"
+  },
+  "search/autocomplete": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/search/autocomplete"
+  },
+  "product": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product"
+  },
+  "web/v1/product/accessories": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/accessories"
+  },
+  "user/orders": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/orders"
+  },
+  "contacts": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/contacts"
+  },
+  "payments": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/payments"
+  },
+  "feedback": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/feedback"
+  },
+  "web/v1/product/overview": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/overview"
+  },
+  "order": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/order"
+  },
+  "catalog": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/catalog"
+  },
+  "common/v1/order/is-canceled": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/order/is-canceled"
+  },
+  "recommendation": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/recommendation"
+  },
+  "auth/forgot-password": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/forgot-password"
+  },
+  "user/subscriptions": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/subscriptions"
+  },
+  "common/v1/user/unsubscribe": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/unsubscribe"
+  },
+  "review": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/review"
+  },
+  "text/css": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/text/css"
+  },
+  "delivery/calculate": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/delivery/calculate"
+  },
+  "cart/update": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/cart/update"
+  },
+  "web/v1/product/same-products": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/same-products"
+  },
+  "common/v1/order/create/pre": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/order/create/pre"
+  },
+  "coupons": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/coupons"
+  },
+  "web/v1/sale-month/categories": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/sale-month/categories"
+  },
+  "addresses": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/addresses"
+  },
+  "order/create/pre": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/order/create/pre"
+  },
+  "common/v2/checkout/loan-info": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v2/checkout/loan-info"
+  },
+  "common/v1/checkout/provinces": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/provinces"
+  },
+  "common/v1/user/check-phone": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/check-phone"
+  },
+  "common/v1/user/sms-not-verified": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/sms-not-verified"
+  },
+  "coupon": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/coupon"
+  },
+  "product/reviews": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/reviews"
+  },
+  "web/v1/region/stores-list": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/region/stores-list"
+  },
+  "delivery": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/delivery"
+  },
+  "common/v1/user/address/store": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/address/store"
+  },
+  "common/v1/search/result": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/common/v1/search/result"
+  },
+  "user/notifications": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/notifications"
+  },
+  "web/v1/category/chips": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/category/chips"
+  },
+  "image/x-icon": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/image/x-icon"
+  },
+  "sale": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/sale"
+  },
+  "cart/remove": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/cart/remove"
+  },
+  "web/v2/checkout/recommended-products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v2/checkout/recommended-products"
+  },
+  "config": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/config"
+  },
+  "common/v1/checkout/get-delivery-prices": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/get-delivery-prices"
+  },
+  "products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/products"
+  },
+  "common/v1/search/filters": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/common/v1/search/filters"
+  },
+  "discount": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/discount"
+  },
+  "languages": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/languages"
+  },
+  "web/v1/product/quick-view": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/quick-view"
+  },
+  "user/addresses": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/addresses"
+  },
+  "web/v1/header/top-categories": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/header/top-categories"
+  },
+  "web/v1/product/files": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/files"
+  },
+  "common/v1/search/product-promotions": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/common/v1/search/product-promotions"
+  },
+  "sliders": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/sliders"
+  },
+  "cart/add": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/cart/add"
+  },
+  "web/v1/brand/seo": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/brand/seo"
+  },
+  "order/cancel": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/order/cancel"
+  },
+  "user/wishlist": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/user/wishlist"
+  },
+  "popular": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/popular"
+  },
+  "cities": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/cities"
+  },
+  "promotions": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/promotions"
+  },
+  "web/v1/product/products-by-ids": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/products-by-ids"
+  },
+  "checkout": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/checkout"
+  },
+  "product/compare": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/compare"
+  },
+  "common/v1/user/address/get": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/address/get"
+  },
+  "web/v1/product/detail": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/detail"
+  },
+  "common/v1/stick/categories": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/stick/categories"
+  },
+  "auth/logout": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/logout"
+  },
+  "web/v1/product/add-review": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/add-review"
+  },
+  "pickup-points": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/pickup-points"
+  },
+  "language": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/language"
+  },
+  "text/javascript": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/text/javascript"
+  },
+  "multipart/form-data": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/multipart/form-data"
+  },
+  "order/create": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/order/create"
+  },
+  "product/detail": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/detail"
+  },
+  "currencies": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/currencies"
+  },
+  "common/v1/intend/member-check": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/intend/member-check"
+  },
+  "catalog/categories": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/catalog/categories"
+  },
+  "common/v1/setting/get-loan-order-min-amount": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/setting/get-loan-order-min-amount"
+  },
+  "filters": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/filters"
+  },
+  "common/v1/checkout/districts": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/districts"
+  },
+  "common/v1/user/subscribe": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/subscribe"
+  },
+  "page": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/page"
+  },
+  "application/x-www-form-urlencoded": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/application/x-www-form-urlencoded"
+  },
+  "web/v1/product/available-stores": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/available-stores"
+  },
+  "filter": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/filter"
+  },
+  "delivery/methods": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/delivery/methods"
+  },
+  "common/v1/user/subscriptions": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/subscriptions"
+  },
+  "init": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/init"
+  },
+  "web/v1/category/category-data": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/category/category-data"
+  },
+  "search": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/search"
+  },
+  "catalog/brands": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/catalog/brands"
+  },
+  "news": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/news"
+  },
+  "cart": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/cart"
+  },
+  "common/v1/other/calculate-conditioner": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/other/calculate-conditioner"
+  },
+  "orders": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/orders"
+  },
+  "payment": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/payment"
+  },
+  "common/v1/checkout/get-total-prices": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/get-total-prices"
+  },
+  "web/v1/home/recently-viewed-products": {
+    "status": 405,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/home/recently-viewed-products"
+  },
+  "web/v1/product/salemonth": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/salemonth"
+  },
+  "web/v1/category/catalog": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/category/catalog"
+  },
+  "common/v1/user/find-by-phone": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/find-by-phone"
+  },
+  "recommendations": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/recommendations"
+  },
+  "regions": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/regions"
+  },
+  "search/suggest": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/search/suggest"
+  },
+  "web/v1/home/special-categories": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/home/special-categories"
+  },
+  "brands": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/brands"
+  },
+  "top": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/top"
+  },
+  "pages": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/pages"
+  },
+  "categories/tree": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/categories/tree"
+  },
+  "brand": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/brand"
+  },
+  "common/v1/order/create/loan": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/order/create/loan"
+  },
+  "checkout/confirm": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/checkout/confirm"
+  },
+  "home": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/home"
+  },
+  "currency": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/currency"
+  },
+  "web/v1/home/special-brands": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/home/special-brands"
+  },
+  "common/v1/search/header": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/search/header"
+  },
+  "common/v1/checkout/payment-methods": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/checkout/payment-methods"
+  },
+  "web/v1/product/reviews": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/reviews"
+  },
+  "slider": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/slider"
+  },
+  "faq": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/faq"
+  },
+  "banners": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/banners"
+  },
+  "stores": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/stores"
+  },
+  "web/v1/header/popup-menu-catalog": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/header/popup-menu-catalog"
+  },
+  "common/v1/user/check-auth-key": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/check-auth-key"
+  },
+  "address": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/address"
+  },
+  "featured": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/featured"
+  },
+  "compare": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/compare"
+  },
+  "web/v1/product/characters": {
+    "status": 500,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/product/characters"
+  },
+  "notification/hide": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/notification/hide"
+  },
+  "web/v1/compare/products": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/compare/products"
+  },
+  "web/v1/content/seo": {
+    "status": 500,
+    "content_type": "application/json",
+    "url": "https://gw.texnomart.uz/api/web/v1/content/seo"
+  },
+  "common/v1/user/subscribe-email": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/common/v1/user/subscribe-email"
+  },
+  "checkout/calculate": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/checkout/calculate"
+  },
+  "reviews": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/reviews"
+  },
+  "auth/refresh": {
+    "status": 404,
+    "content_type": "text/plain",
+    "url": "https://gw.texnomart.uz/api/web/v1/auth/refresh"
+  },
+  "common/v1/sync/client/get-contracts": {
+    "status": 0,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/common/v1/sync/client/get-contracts"
+  },
+  "web/v1/home/collections": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "url": "https://gw.texnomart.uz/api/web/v1/home/collections"
+  },
+  "articles": {
+    "status": 0,
+    "content_type": "",
+    "url": "https://gw.texnomart.uz/api/web/v1/articles"
+  }
+}

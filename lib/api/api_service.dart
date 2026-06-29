@@ -15,4 +15,13 @@ abstract class ApiService {
 
   @GET("home/special-products?type=hit_products")
   Future<dynamic> getHitProducts();
+
+  @GET("header/popup-menu-catalog")
+  Future<dynamic> getCatalog();
+
+  @GET("category/category-data")
+  Future<dynamic> getCategoryProducts(@Query("category") String slug);
+
+  @GET("product/detail")
+  Future<dynamic> getProductDetail(@Query("id") int id);
 }

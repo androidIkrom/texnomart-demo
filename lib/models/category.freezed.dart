@@ -15,7 +15,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$Category {
 
- String get slug; String get title;@JsonKey(name: 'image') String? get imageUrl;
+ String get slug; String get title;@JsonKey(name: 'image') String? get imageUrl; List<Category>? get children;
 /// Create a copy of Category
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -28,16 +28,16 @@ $CategoryCopyWith<Category> get copyWith => _$CategoryCopyWithImpl<Category>(thi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Category&&(identical(other.slug, slug) || other.slug == slug)&&(identical(other.title, title) || other.title == title)&&(identical(other.imageUrl, imageUrl) || other.imageUrl == imageUrl));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Category&&(identical(other.slug, slug) || other.slug == slug)&&(identical(other.title, title) || other.title == title)&&(identical(other.imageUrl, imageUrl) || other.imageUrl == imageUrl)&&const DeepCollectionEquality().equals(other.children, children));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,slug,title,imageUrl);
+int get hashCode => Object.hash(runtimeType,slug,title,imageUrl,const DeepCollectionEquality().hash(children));
 
 @override
 String toString() {
-  return 'Category(slug: $slug, title: $title, imageUrl: $imageUrl)';
+  return 'Category(slug: $slug, title: $title, imageUrl: $imageUrl, children: $children)';
 }
 
 
@@ -48,7 +48,7 @@ abstract mixin class $CategoryCopyWith<$Res>  {
   factory $CategoryCopyWith(Category value, $Res Function(Category) _then) = _$CategoryCopyWithImpl;
 @useResult
 $Res call({
- String slug, String title,@JsonKey(name: 'image') String? imageUrl
+ String slug, String title,@JsonKey(name: 'image') String? imageUrl, List<Category>? children
 });
 
 
@@ -65,12 +65,13 @@ class _$CategoryCopyWithImpl<$Res>
 
 /// Create a copy of Category
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? slug = null,Object? title = null,Object? imageUrl = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? slug = null,Object? title = null,Object? imageUrl = freezed,Object? children = freezed,}) {
   return _then(_self.copyWith(
 slug: null == slug ? _self.slug : slug // ignore: cast_nullable_to_non_nullable
 as String,title: null == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String,imageUrl: freezed == imageUrl ? _self.imageUrl : imageUrl // ignore: cast_nullable_to_non_nullable
-as String?,
+as String?,children: freezed == children ? _self.children : children // ignore: cast_nullable_to_non_nullable
+as List<Category>?,
   ));
 }
 
@@ -155,10 +156,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl,  List<Category>? children)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _Category() when $default != null:
-return $default(_that.slug,_that.title,_that.imageUrl);case _:
+return $default(_that.slug,_that.title,_that.imageUrl,_that.children);case _:
   return orElse();
 
 }
@@ -176,10 +177,10 @@ return $default(_that.slug,_that.title,_that.imageUrl);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl,  List<Category>? children)  $default,) {final _that = this;
 switch (_that) {
 case _Category():
-return $default(_that.slug,_that.title,_that.imageUrl);case _:
+return $default(_that.slug,_that.title,_that.imageUrl,_that.children);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -196,10 +197,10 @@ return $default(_that.slug,_that.title,_that.imageUrl);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String slug,  String title, @JsonKey(name: 'image')  String? imageUrl,  List<Category>? children)?  $default,) {final _that = this;
 switch (_that) {
 case _Category() when $default != null:
-return $default(_that.slug,_that.title,_that.imageUrl);case _:
+return $default(_that.slug,_that.title,_that.imageUrl,_that.children);case _:
   return null;
 
 }
@@ -211,12 +212,21 @@ return $default(_that.slug,_that.title,_that.imageUrl);case _:
 @JsonSerializable()
 
 class _Category implements Category {
-  const _Category({required this.slug, required this.title, @JsonKey(name: 'image') this.imageUrl});
+  const _Category({required this.slug, required this.title, @JsonKey(name: 'image') this.imageUrl, final  List<Category>? children}): _children = children;
   factory _Category.fromJson(Map<String, dynamic> json) => _$CategoryFromJson(json);
 
 @override final  String slug;
 @override final  String title;
 @override@JsonKey(name: 'image') final  String? imageUrl;
+ final  List<Category>? _children;
+@override List<Category>? get children {
+  final value = _children;
+  if (value == null) return null;
+  if (_children is EqualUnmodifiableListView) return _children;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(value);
+}
+
 
 /// Create a copy of Category
 /// with the given fields replaced by the non-null parameter values.
@@ -231,16 +241,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Category&&(identical(other.slug, slug) || other.slug == slug)&&(identical(other.title, title) || other.title == title)&&(identical(other.imageUrl, imageUrl) || other.imageUrl == imageUrl));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Category&&(identical(other.slug, slug) || other.slug == slug)&&(identical(other.title, title) || other.title == title)&&(identical(other.imageUrl, imageUrl) || other.imageUrl == imageUrl)&&const DeepCollectionEquality().equals(other._children, _children));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,slug,title,imageUrl);
+int get hashCode => Object.hash(runtimeType,slug,title,imageUrl,const DeepCollectionEquality().hash(_children));
 
 @override
 String toString() {
-  return 'Category(slug: $slug, title: $title, imageUrl: $imageUrl)';
+  return 'Category(slug: $slug, title: $title, imageUrl: $imageUrl, children: $children)';
 }
 
 
@@ -251,7 +261,7 @@ abstract mixin class _$CategoryCopyWith<$Res> implements $CategoryCopyWith<$Res>
   factory _$CategoryCopyWith(_Category value, $Res Function(_Category) _then) = __$CategoryCopyWithImpl;
 @override @useResult
 $Res call({
- String slug, String title,@JsonKey(name: 'image') String? imageUrl
+ String slug, String title,@JsonKey(name: 'image') String? imageUrl, List<Category>? children
 });
 
 
@@ -268,12 +278,13 @@ class __$CategoryCopyWithImpl<$Res>
 
 /// Create a copy of Category
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? slug = null,Object? title = null,Object? imageUrl = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? slug = null,Object? title = null,Object? imageUrl = freezed,Object? children = freezed,}) {
   return _then(_Category(
 slug: null == slug ? _self.slug : slug // ignore: cast_nullable_to_non_nullable
 as String,title: null == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String,imageUrl: freezed == imageUrl ? _self.imageUrl : imageUrl // ignore: cast_nullable_to_non_nullable
-as String?,
+as String?,children: freezed == children ? _self._children : children // ignore: cast_nullable_to_non_nullable
+as List<Category>?,
   ));
 }
 

@@ -9,6 +9,7 @@ abstract class Category with _$Category {
     required String slug,
     required String title,
     @JsonKey(name: 'image') String? imageUrl,
+    List<Category>? children,
   }) = _Category;
 
   factory Category.fromJson(Map<String, dynamic> json) => _$CategoryFromJson(json);

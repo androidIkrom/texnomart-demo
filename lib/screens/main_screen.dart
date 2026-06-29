@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
+import 'katalog_screen.dart';
+import 'cart_screen.dart';
+import 'favorites_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -13,14 +16,14 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    const Scaffold(body: Center(child: Text('Katalog'))),
-    const Scaffold(body: Center(child: Text('Savatcha'))),
-    const Scaffold(body: Center(child: Text('Buyurtmalar'))),
+    const KatalogScreen(),
+    const CartScreen(),
+    const FavoritesScreen(),
     const Scaffold(body: Center(child: Text('Profil'))),
   ];
 
   void _onItemTapped(int index) {
-    setState(() {
+    setState(() {df
       _selectedIndex = index;
     });
   }
@@ -55,8 +58,8 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Savatcha',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.inventory_2_outlined),
-            label: 'Buyurtmalar',
+            icon: Icon(Icons.favorite_border),
+            label: 'Sevimlilar',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
